@@ -8,11 +8,25 @@ Spring boot authentication app with JWT and Spring Security.
 ### API endpoints:
 /api/signup
 
+*# POST body (JSON):*
+```json
+
+    "username": "all-the-roles-as-example-user",
+    "email": "me@mail.com",
+    "password": "password-here",
+    "role": ["admin", "mod", "user"]
+
+```
+
 /api/signin
 
 /api/test/all - retrieve public content
 
+
+*if using postman: login, get the token, use Bearer token, paste the token to Token*
 /api/test/user - access user's content
+
+
 
 /api/test/mod - access moderator's content
 
