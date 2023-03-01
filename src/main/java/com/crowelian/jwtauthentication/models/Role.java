@@ -1,4 +1,4 @@
-package com.crowelian.models;
+package com.crowelian.jwtauthentication.models;
 
 import javax.persistence.*;
 

@@ -1,4 +1,4 @@
-package com.crowelian.models;
+package com.crowelian.jwtauthentication.models;
 
 public enum ERole {
     ROLE_USER,

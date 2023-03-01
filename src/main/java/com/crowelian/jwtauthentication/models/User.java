@@ -1,4 +1,4 @@
-package com.crowelian.models;
+package com.crowelian.jwtauthentication.models;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -39,7 +39,7 @@ public class User {
 	private Set<Role> roles = new HashSet<>();
 
 	public User() {
-        
+
 	}
 
 	public User(String username, String email, String password) {
